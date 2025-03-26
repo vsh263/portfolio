@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { GithubIcon, Linkedin, MailboxIcon, MailIcon } from "lucide-react";
+import { Linkedin, MailIcon } from "lucide-react";
 import Link from "next/link";
 
 export function ContactSection() {
   return (
     <div className="flex flex-col gap-4 mt-40 items-center" id="contact">
-      <h1 className="text-4xl font-mono font-semibold">Let's Connect</h1>
+      <h1 className="text-4xl font-mono font-semibold">Let&apos;s Connect</h1>
       <div className="flex flex-row gap-4 justify-center mt-6">
         <Link href="https://linkedin.com/in/vsh-n" target="_blank">
           <Button

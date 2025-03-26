@@ -13,13 +13,10 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import {
-  BookIcon,
-  CakeIcon,
   CakeSliceIcon,
   CarIcon,
   ExternalLink,
   SchoolIcon,
-  Sparkle,
   SparklesIcon,
   StethoscopeIcon,
 } from "lucide-react";
@@ -262,8 +259,8 @@ export function ProjectsSection() {
               </li>
               <li className="list-disc">
                 Integrated payment through Stripe, and handled orders on Shopify
-                using Shopify's GraphQL API. Handled cases for order creation
-                and refunds, synchronising with Stripe.
+                using Shopify&apos;s GraphQL API. Handled cases for order
+                creation and refunds, synchronising with Stripe.
               </li>
               <li className="list-disc">
                 Implemented an agent handoff feature to allow <i>human</i>{" "}
@@ -373,14 +370,14 @@ export function ProjectsSection() {
                     and log activity.
                     <br />
                     <br />
-                    <b>2. Doctor's Workstation</b>: The same desktop application
-                    with a separate interface specifically designed for doctors
-                    to view, manage, and process medical requests from patients
-                    based on their ailment or disease. The platform facilitates
-                    video calls and text communication with patients, enabling
-                    medical professionals to make diagnoses, create detailed
-                    reports within the dashboard, and share these insights
-                    directly with the patient.
+                    <b>2. Doctor&apos;s Workstation</b>: The same desktop
+                    application with a separate interface specifically designed
+                    for doctors to view, manage, and process medical requests
+                    from patients based on their ailment or disease. The
+                    platform facilitates video calls and text communication with
+                    patients, enabling medical professionals to make diagnoses,
+                    create detailed reports within the dashboard, and share
+                    these insights directly with the patient.
                     <br />
                     <br />
                     <b>3. Patient Application</b>: A mobile application

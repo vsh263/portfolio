@@ -1,10 +1,5 @@
-import Image from "next/image";
 import { FloatingNav } from "./components/menu";
 import { navItems } from "@/data";
-import TypingText from "@/components/animata/text/typing-text";
-import { Button } from "@/components/ui/button";
-import { ArrowDown } from "lucide-react";
-import Link from "next/link";
 import { AboutSection } from "./sections/about";
 import { MainSection } from "./sections/main";
 import { ExperienceSection } from "./sections/experience";

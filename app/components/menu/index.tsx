@@ -1,13 +1,9 @@
 "use client";
-import React, { JSX, useState } from "react";
+
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import {
-  AnimatePresence,
-  useMotionValueEvent,
-  useScroll,
-  motion,
-} from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { JSX } from "react";
 
 export const FloatingNav = ({
   navItems,
@@ -48,7 +44,7 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
-        {navItems.map((navItem: any, idx: number) => (
+        {navItems.map((navItem, idx: number) => (
           <Link
             key={`link=${idx}`}
             href={navItem.link}

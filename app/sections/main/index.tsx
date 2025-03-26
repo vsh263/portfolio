@@ -1,6 +1,5 @@
 import TypingText from "@/components/animata/text/typing-text";
 import { AnimatedButton } from "@/components/ui/animated-button";
-import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import Link from "next/link";
 

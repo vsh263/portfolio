@@ -265,7 +265,7 @@ export default function ExperienceCardOne({
       </span>
 
       <span className="flex flex-row flex-wrap mt-4 gap-2 mb-6">
-        <Badge>Javascript</Badge>
+        <Badge>JavaScript</Badge>
         <Badge>Python</Badge>
         <Badge>React.js</Badge>
         <Badge>Flask</Badge>
@@ -295,7 +295,7 @@ export default function ExperienceCardOne({
       </span>
 
       <span className="flex flex-row flex-wrap mt-4 gap-2 mb-6">
-        <Badge>Javascript</Badge>
+        <Badge>JavaScript</Badge>
         <Badge>React.js</Badge>
         <Badge>Express.js</Badge>
         <Badge>Bootstrap</Badge>

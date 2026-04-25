@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Linkedin, MailIcon } from "lucide-react";
+import linkedInIcon from "@/public/linkedin.svg";
+import { MailIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export function ContactSection() {
@@ -12,7 +14,13 @@ export function ContactSection() {
             variant="outline"
             className="h-34 w-34 bg-[#0A65C1] text-lg text-white hover:cursor-pointer"
           >
-            <Linkedin size={"30px"} /> LinkedIn
+            <Image
+              loading="eager"
+              src={linkedInIcon}
+              alt="linkedin"
+              style={{ fontSize: "30px" }}
+            />
+            LinkedIn
           </Button>
         </Link>
         <Link href="mailto:vaishnavjknair@gmail.com" target="_blank">
